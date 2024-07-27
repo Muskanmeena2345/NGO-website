@@ -23,6 +23,11 @@ body{
     font-weight: 700;
 }
 
+.social{
+margin-top: -2em;
+position: absolute;
+}
+
 .twitter-icon{
     margin-left: 1230px;
     width: 16px;
@@ -752,7 +757,7 @@ font-size: 59px;
    color: white;
    font-weight: 700;
     margin-left: 190px;
-    margin-top: -55px;
+    margin-top: -60px;
     position: absolute;
 }
 .med2{
@@ -1510,7 +1515,7 @@ color: #575757;
     width:350px;
     height: 300px;
     background-color:white;
-    margin-top: -246px;
+    margin-top: -285px;
     margin-left: 950px;
 }
 .testimonial{
@@ -1540,7 +1545,8 @@ color: #575757;
     border-radius: 65px;
 }
 .talk1-name{
-    margin-top: -80px;
+    margin-top:-3em;
+position: absolute;
     margin-left: 760px;
     font-size: 19px;
     font-weight: 700;
@@ -1554,7 +1560,7 @@ color: #575757;
     border-radius: 65px;
 }
 .talk2-name{
-    margin-top: -80px;
+    margin-top: -3em;
     margin-left: 1100px;
     font-size: 19px;
     font-weight: 700;
@@ -1744,13 +1750,17 @@ margin-left: 230px;
  margin-left: 150px;
  font-size: 24px;
 font-weight: 700;
- color:black ;
+ color:white;
 margin-top:-90px;
+
     }
-    a{
+   .cmnt a{
     text-decoration: none;
     color: white;
     }
+.cmnt a:hover{
+color: #000;
+}
  
     .date{
  margin-left: 970px;
